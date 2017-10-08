@@ -4,6 +4,16 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>FirstServlet</servlet-name>
+  	<display-name>FirstServlet</display-name>
+  	<description></description>
+  	<servlet-class>samplepackage.FirstServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>FirstServlet</servlet-name>
+  	<url-pattern>/firstServlet</url-pattern>
+  </servlet-mapping>
   <welcome-file-list>
   <welcome-file>oxford_home.html</welcome-file>
   </welcome-file-list>
